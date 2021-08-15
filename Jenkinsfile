@@ -2,7 +2,7 @@ node {
 
   stage('build') {
       sh 'npm --version'
-      sh '/usr/bin/npm install'
+      sh '/usr/bin/npm install --no-optional'
   }
 
   stage('test') {
