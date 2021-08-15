@@ -2,7 +2,6 @@ node {
 
   stage('build') {
       sh 'npm --version'
-      sh 'git log --reverse -1'
       sh '/usr/bin/npm install'
   }
 
